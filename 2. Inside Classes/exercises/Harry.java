@@ -31,6 +31,12 @@ public class Harry {
 		// 3. spy on professor snape
 		// 4. become visible again
 		// 5. cast a “stupefy” spell
+
+		Harry hairy = new Harry();
+		hairy.makeInvisible(true);
+		hairy.spyOnSnape();
+		hairy.makeInvisible(false);
+		hairy.castSpell("stupefy");
 	}
 
 }

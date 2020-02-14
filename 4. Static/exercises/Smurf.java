@@ -10,6 +10,7 @@ public class Smurf {
 
 		if (name == "papa" && papaCreated){
 			System.out.println("Papa has already been created");
+			return null;
 		}
 
 		if (name == "papa" && !papaCreated){
